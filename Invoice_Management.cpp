@@ -1,5 +1,3 @@
-// Invoice_Management.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
 
 #include <iostream>
 #include <unordered_map>
@@ -9,7 +7,7 @@
 
 int main()
 {
-    App app();
+    App CoreApp;
     return 0;
 }
 

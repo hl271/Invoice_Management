@@ -7,19 +7,19 @@ class Product {
     double unit_price = 0;
     string id;
 public:
-    Product(string name, double price) {}
+    Product();
+    Product(string sid, string name, double price):id(sid), name_of_product(name), unit_price(price) {}
     //Accessing
-    string getName() {}
-    double getUnitPrice() {}
-    string getId() {}
+    string getName();
+    double getUnitPrice();
+    string getId();
     //Modify
-    void setName(string name) {}
-    void setUnitPrice(double price) {}
-    void deleteProduct() {}
+    void setName(string name);
+    void setUnitPrice(double price);
+    void deleteProduct();
     //Searching
-    string searchProductByName(string name) {}
+    string searchProductByName(string name);
     //helper
-    bool CheckForDuplicateName() {}
-
+    bool CheckForDuplicateName();
 
 };
