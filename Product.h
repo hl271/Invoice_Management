@@ -7,8 +7,8 @@ class Product {
     double unit_price = 0;
     string id;
 public:
-    Product();
-    Product(string sid, string name, double price):id(sid), name_of_product(name), unit_price(price) {}
+    Product(){}
+    Product(string name, double price): name_of_product(name), unit_price(price) {}
     //Accessing
     string getName();
     double getUnitPrice();

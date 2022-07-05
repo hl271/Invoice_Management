@@ -8,6 +8,10 @@
 int main()
 {
     App CoreApp;
+    CoreApp.addNewInvoiceToDb("ID");
+    CoreApp.addNewInvoiceToDb("IF");
+    CoreApp.addNewProductToDb("orange", 30000);
+    CoreApp.printAllInvoices();
     return 0;
 }
 

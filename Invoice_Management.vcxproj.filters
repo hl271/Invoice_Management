@@ -39,6 +39,9 @@
     <ClCompile Include="Outcoming_Foreign.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="uuid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Invoice.h">
@@ -70,5 +73,8 @@
     <ResourceCompile Include="Invoice_Management.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
